@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6803" started-at="2017-10-21T12:54:22Z" finished-at="2017-10-21T12:54:29Z">
+  <suite name="Default suite" duration-ms="2891" started-at="2017-10-31T09:55:08Z" finished-at="2017-10-31T09:55:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6803" started-at="2017-10-21T12:54:22Z" finished-at="2017-10-21T12:54:29Z">
-      <class name="winium.DriverRunner">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:winium.DriverRunner@4c70fda8]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2017-10-21T15:54:22Z" finished-at="2017-10-21T15:54:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test()[pri:0, instance:winium.DriverRunner@4c70fda8]" name="test" duration-ms="6775" started-at="2017-10-21T15:54:22Z" finished-at="2017-10-21T15:54:29Z">
+    <test name="Default test" duration-ms="2891" started-at="2017-10-31T09:55:08Z" finished-at="2017-10-31T09:55:11Z">
+      <class name="winium.NotepadTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:winium.NotepadTest@cb5822]" name="test" duration-ms="2878" started-at="2017-10-31T11:55:08Z" finished-at="2017-10-31T11:55:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:winium.DriverRunner@4c70fda8]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2017-10-21T15:54:29Z" finished-at="2017-10-21T15:54:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-      </class> <!-- winium.DriverRunner -->
+      </class> <!-- winium.NotepadTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

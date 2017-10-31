@@ -26,11 +26,11 @@
 		</dependency>
 
 
-		<!-- <dependency>
+		<dependency>
 			<groupId>com.github.2gis.winium</groupId>
 			<artifactId>winium-webdriver</artifactId>
 			<version>0.1.0-1</version>
-		</dependency> -->
+		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.github.2gis.winium/winium-elements-desktop -->
 		<dependency>
@@ -38,6 +38,7 @@
 			<artifactId>winium-elements-desktop</artifactId>
 			<version>0.2.0-1</version>
 		</dependency>
+
 
 	</dependencies>
 </project>

@@ -17,7 +17,8 @@ public class CalculatorTest {
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability("app", "C:\\Windows\\System32\\calc.exe"); //если хотим сразу запускать какую-либо программу
 		cap.setCapability("launchDelay","5"); //задержка после запуска программы
-		WebDriver driver = new RemoteWebDriver(new URL("http://localhost:9999"),cap); //на этом порту по умолчанию висит Winium драйвер
+		
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://localhost:9999"),cap); //на этом порту по умолчанию висит Winium драйвер
 
 
 		driver.findElement(By.id("133"));
@@ -44,6 +45,9 @@ public class CalculatorTest {
 		WebElement result = driver.findElement(By.id("150"));
 
 		Assert.assertEquals(result.getAttribute("Name"), "6");
+		
+		driver.executeScript("input: ctrl_click", thereButton);
+		
 		driver.quit();
 	}
 }
