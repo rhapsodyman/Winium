@@ -6,6 +6,19 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 
+	<repositories>
+		<repository>
+			<id>atlassian</id>
+			<name>atlassian repo</name>
+			<url>https://maven.atlassian.com/content/repositories/atlassian-public/</url>
+		</repository>
+		<repository>
+			<id>xuggle repo</id>
+			<url>https://raw.github.com/smccarthy/xuggle-xuggler-dependency/master</url>
+		</repository>
+	</repositories>
+
+
 	<properties>
 		<selenium.version>2.53.1</selenium.version>
 	</properties>
@@ -38,6 +51,21 @@
 			<artifactId>winium-elements-desktop</artifactId>
 			<version>0.2.0-1</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/xuggle/xuggle-xuggler -->
+		<dependency>
+			<groupId>xuggle</groupId>
+			<artifactId>xuggle-xuggler</artifactId>
+			<version>5.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.22</version>
+		</dependency>
+
+
 
 
 	</dependencies>
