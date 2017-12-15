@@ -16,11 +16,11 @@ public class NotepadTest {
 	@Test
 	public void test() throws Exception {
 		DesiredCapabilities cap = new DesiredCapabilities();
-		cap.setCapability("app", "C:\\Windows\\System32\\notepad.exe"); //если хотим сразу запускать какую-либо программу
+		cap.setCapability("app", "C:\\Windows\\System32\\notepad.exe");
 
-		cap.setCapability("launchDelay","5"); //задержка после запуска программы
+		cap.setCapability("launchDelay","5");
 
-		WebDriver driver = new RemoteWebDriver(new URL("http://localhost:9999"),cap); //на этом порту по умолчанию висит Winium драйвер
+		WebDriver driver = new RemoteWebDriver(new URL("http://localhost:9999"),cap);
 
 
 		WebElement el = driver.findElement(By.id("15"));
